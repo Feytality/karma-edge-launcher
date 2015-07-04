@@ -22,7 +22,7 @@ By default, Edge does not have access to the loopback address, which prevents Ed
 
 Open PowerShell as an administrator and run this command:
 ```
-CheckNetIsolation LoopbackExempt -a -n='Microsoft.Windows.Spartan_cw5n1h2txyewy'
+CheckNetIsolation LoopbackExempt -a -n='Microsoft.MicrosoftEdge_8wekyb3d8bbwe'
 ```
 
 This only needs to be run once per Windows install. You can check your exemptions with `CheckNetIsolation LoopbackExempt -s`.
